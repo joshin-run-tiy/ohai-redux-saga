@@ -60,3 +60,23 @@ describe('#executeFetchPerson is cached', () => {
     expect(iterator.next(state).done).toEqual(true)
   })
 })
+
+//==========
+
+it('it checks the cache', () +> {
+
+})
+
+export function* executeFetchPerson({ personId }) {
+  const state = yeild.
+}
+
+it('check state', () => {
+  expect(iterator.next().value).toEqual(select(selector))
+})
+
+it('calls api', () => {
+  expect(iterator.next(state).value).toEqual(call(api))
+})
+
+const res = yeild call(api.)

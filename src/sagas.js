@@ -16,3 +16,6 @@ export default function* () {
     watchEvery(TYPES.FETCH_PERSON_REQUEST, actions.executeFetchPerson)
   ]
 }
+
+// can control syncronis behavior
+// can control what data you want
